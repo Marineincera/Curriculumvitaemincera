@@ -1,0 +1,49 @@
+.presentation-lil-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.avatar-cv {
+  width: 112px;
+  height: 148px;
+  border: 2px solid #eaaaa0;
+  border-radius: 47%;
+}
+
+.big-skills,
+.hobbies {
+  display: flex;
+  color: #eaaaa0;
+  justify-content: center;
+}
+
+.big-skill,
+.hobby {
+  margin-right: 3vw;
+  font-weight: bold;
+}
+
+@media (min-width: 550px) {
+  .presentation-lil-section {
+    flex-direction: column;
+    color: white;
+    align-items: center;
+  }
+
+  .presentation-text {
+    color: white;
+    font-size: 13px;
+  }
+
+  .big-skills,
+  .hobbies {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .big-skill,
+  .hobby {
+    margin-right: 0vw;
+  }
+}

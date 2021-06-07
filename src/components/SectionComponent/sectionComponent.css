@@ -1,0 +1,93 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  padding-left: 1em;
+  font-size: 2vh;
+  text-align: left;
+}
+
+.title {
+  background-color: #919191;
+  color: white;
+  width: 100%;
+}
+
+/* webExperience */
+.webExperienceElement {
+  text-align: left;
+}
+
+.date {
+  text-align: center;
+  color: #eaaaa0;
+}
+
+h3 {
+  color: #919191;
+  text-align: center;
+}
+
+.web-project {
+  padding: 0.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eaaaa0;
+  color: white;
+  margin-bottom: 2vh;
+  text-align: center;
+  border-radius: 4%;
+  margin-right: 2vw;
+}
+
+.project-title,
+a {
+  color: white;
+}
+
+/* Education */
+
+.formation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #eaaaa0;
+  margin-top: 2vh;
+  border-radius: 4%;
+  margin-right: 2vw;
+}
+
+.formation-title {
+  color: #eaaaa0;
+}
+
+@media (min-width: 550px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 2vh;
+  }
+
+  .title {
+    padding: 2vh;
+    font-size: 20px;
+    width: 96%;
+    text-align: center;
+    margin-left: 4vw;
+  }
+
+  .title:hover {
+  }
+  .formation,
+  .others-skills {
+    width: 100%;
+  }
+}
