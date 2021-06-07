@@ -12,6 +12,13 @@ const professionnal = [
         "Création d'applications web et web mobile en Angular8+, React.js et ReactNativve",
       projects: [
         {
+          projectTitle: "CV en ligne",
+          description: "CV - Mai 2021 - React ",
+          githubLinks: [
+            "https://github.com/Marineincera/Curriculumvitaemincera"
+          ]
+        },
+        {
           projectTitle: "BorrowIt",
           description:
             "Application pour faciliter les prêts d'objets - Juillet - Août 2020 - Angular",
@@ -24,13 +31,13 @@ const professionnal = [
           projectTitle: "retrogamingCV",
           description:
             "CV interactif pour apprendre à développer en Reactjs - En cours - React",
-          githubLinks: "https://github.com/Marineincera/retrogaming/tree/dev"
+          githubLinks: ["https://github.com/Marineincera/retrogaming/tree/dev"]
         },
         {
           projectTitle: "EasyList",
           description:
             "Application mobile pour développer mes compétences en ReactNative - Juillet - Août 2020 - Angular",
-          githubLinks: "https://github.com/Marineincera/EasyList/tree/develop"
+          githubLinks: ["https://github.com/Marineincera/EasyList/tree/develop"]
         }
       ]
     },
@@ -86,7 +93,7 @@ const professionnal = [
           projectTitle: "Watcher",
           description:
             "Création d'une application web dynamique pour la Wild Code School afin de regrouper les veilles des élèves.  Connexion avec une API (Express | NodeJs).  Conception des fonctionnalités (Javascript | Angular) - Equipe de 4 personnes",
-          githubLinks: "https://github.com/WildCodeSchool/bdx-0919-watcher"
+          githubLinks: ["https://github.com/WildCodeSchool/bdx-0919-watcher"]
         }
       ]
     },

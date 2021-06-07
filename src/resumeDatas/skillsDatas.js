@@ -7,6 +7,7 @@ const skills = [
       "Création d'API REST en NodeJS - Express & TypeORM",
       "Création de BDD SQL",
       "Conception de Wireframes",
+      "Gestion de projet en méthodologe AGILE SCRUM",
       "Gestion du versionning Git - Github/GitLab",
       "Création de vidéos (tournage et montage)"
     ]
